@@ -1,0 +1,113 @@
+html {
+    height: 120%;
+}
+
+body {background-color: #2F3035;
+    background-image: url(images/dark.jpeg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;}
+
+    img{height:118px;
+    width: 150px;
+    }
+
+    .container{
+    margin-left:auto;
+    margin-right: auto;
+    width: 1024px;
+
+}header {
+    height: 118px;
+    width: 1024px;
+    text-align: center;
+    position: sticky;
+    top: 0%;
+    
+    
+}
+nav{background-color: rgba(0, 0, 0, 0.386);
+    width: 1024px;
+    text-align: center;
+    padding-top:14px;
+    padding-bottom:14px;
+    
+}
+
+main{
+    height: 400px;
+    width: 1024px;
+    text-align: center;
+    padding-top: 80px;
+    
+}
+
+footer{background-color: rgba(0, 0, 0, 0.788);
+    width: 1024px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+h1 {font-size: 100px;
+    color:red;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+p {font-size: 18px;
+    color:white;
+font-family:Arial, Helvetica, sans-serif;}
+
+a {color: white;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+nav a {
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: red;
+
+}
+footer p {
+    text-align: center;
+    font-size: 10px;
+}
+
+.maps {padding-bottom: 100px;
+    
+    }
+
+    section a {
+        border: 1px solid white;
+        display: block;
+        position: absolute;
+        padding: 5px;
+        text-decoration: none;
+        margin-top: 5px;
+        transition: cubic-bezier(0.755, 0.05, 0.855, 0.06) 3s;
+      
+    }
+    section a:hover {
+        background-color: lightgreen;
+        color: black;
+        width: 200px;
+       
+    }
+ 
+    .gola {
+        width: 100px;
+        height: 100px;
+        background-color: lightseagreen;
+        transition: width 2s, height 2s, background-color 2s, border-ra 2s;
+    }
+
+    .gola:hover { 
+        width: 300px;
+        height: 300px;
+        background-color: limegreen;
+        border-radius: 50%;
+        
+    }
+
+
